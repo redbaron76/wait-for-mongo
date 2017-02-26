@@ -1,17 +1,17 @@
 {
-  "name": "wait-for-mongo",
-  "version": "0.2.0",
+  "name": "wait-for-mongo-updt",
+  "version": "0.2.2",
   "description": "Simple utility which waits until mongodb to come online",
   "dependencies": {
-    "mongodb": "1.4.x"
+    "mongodb": "2.2.x"
   },
   "main": "./lib/waitForMongo.js",
   "bin": {
     "wait-for-mongo": "./bin/wait-for-mongo"
   },
-  "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
+  "author": "Fabio Fumis <f.fumis@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/arunoda/wait-for-mongo.git"
+    "url": "git://github.com/redbaron76/wait-for-mongo.git"
   }
 }
